@@ -1,0 +1,251 @@
+{
+	enabled: true
+	blankSlate: true
+	biomes: {
+		names: []
+		IDs: []
+		types: []
+	}
+	useBiomeBlacklist: false
+	dimensions: []
+	useDimensionBlacklist: false
+	replaceableBlocks: [ "stone", "dirt" ]
+	replaceDecorators: true
+	structures: [
+		{
+			name: fossils/fossil_spine_03
+			offset: [ 0, -4, 0 ]
+			matchers: [ "stone", "stone:5", "grass", "gravel" ]
+			directions: down
+			integrity: 0.7
+			chance: 0.03
+		},
+		{
+			name: red_mushroom
+			offset: [ 0, 1, 0 ]
+			matchers: [ "stone", "stone:5", "grass", "gravel" ]
+			directions: down
+			frequency: 2
+			chance: 0.09
+			minHeight: 18
+		}
+	]
+	caveBlocks: [
+		{
+			states: [ "lava" ]
+			maxHeight: 15
+		}
+	]
+	stoneClusters: [
+		{
+			states: "stone:5" # anesite
+			chance: 0.25
+			radiusX: 19
+			radiusY: 14
+			radiusZ: 19
+			radiusVariance: 7
+			startHeight: 100
+			heightVariance: 50
+		},
+		{
+			states: "stone:3" # diorite
+			chance: 0.15
+			radiusVariance: 5
+			startHeight: 165
+			heightVariance: 25
+		},
+		{
+			states: "stone:1" # granite
+			chance: 0.3
+			radiusX: 19
+			radiusY: 14
+			radiusZ: 19
+			radiusVariance: 7
+			startHeight: 30
+			heightVariance: 30
+		}
+	]
+	largeStalactites: [
+		{
+			state: biomesoplenty:log_4:5
+			wide: false
+			maxLength: 3
+			minHeight: 120
+			maxHeight: 250
+			matchers: [ "stone", "stone:5" ]
+			noise2D: { frequency: 0.05 }
+		},
+		{
+			state: minecraft:web
+			wide: false
+			chance: 0.05
+			maxLength: 2
+			minHeight: 10
+			maxHeight: 250
+			matchers: [ "stone", "stone:5" ]
+			noise2D: { frequency: 0.05 }
+		}
+	]
+	largeStalagmites: [
+		{
+			state: botania:mushroom:0
+			wide: false
+			chance: 0.01
+			maxLength: 2
+			minHeight: 10
+			maxHeight: 250
+			matchers: [ "stone", "stone:5" ]
+			noise2D: { frequency: 0.05 }
+		},
+		{
+			state: botania:mushroom:1
+			wide: false
+			chance: 0.01
+			maxLength: 2
+			minHeight: 10
+			maxHeight: 250
+			matchers: [ "stone", "stone:5" ]
+			noise2D: { frequency: 0.05 }
+		},
+		{
+			state: botania:mushroom:2
+			wide: false
+			chance: 0.01
+			maxLength: 2
+			minHeight: 10
+			maxHeight: 250
+			matchers: [ "stone", "stone:5" ]
+			noise2D: { frequency: 0.05 }
+		},
+		{
+			state: botania:mushroom:3
+			wide: false
+			chance: 0.01
+			maxLength: 2
+			minHeight: 10
+			maxHeight: 250
+			matchers: [ "stone", "stone:5" ]
+			noise2D: { frequency: 0.05 }
+		},
+		{
+			state: botania:mushroom:4
+			wide: false
+			chance: 0.01
+			maxLength: 2
+			minHeight: 10
+			maxHeight: 250
+			matchers: [ "stone", "stone:5" ]
+			noise2D: { frequency: 0.05 }
+		},
+		{
+			state: botania:mushroom:5
+			wide: false
+			chance: 0.01
+			maxLength: 2
+			minHeight: 10
+			maxHeight: 250
+			matchers: [ "stone", "stone:5" ]
+			noise2D: { frequency: 0.05 }
+		},
+		{
+			state: botania:mushroom:6
+			wide: false
+			chance: 0.01
+			maxLength: 2
+			minHeight: 10
+			maxHeight: 250
+			matchers: [ "stone", "stone:5" ]
+			noise2D: { frequency: 0.05 }
+		},
+		{
+			state: botania:mushroom:7
+			wide: false
+			chance: 0.01
+			maxLength: 2
+			minHeight: 10
+			maxHeight: 250
+			matchers: [ "stone", "stone:5" ]
+			noise2D: { frequency: 0.05 }
+		},
+		{
+			state: botania:mushroom:8
+			wide: false
+			chance: 0.01
+			maxLength: 2
+			minHeight: 10
+			maxHeight: 250
+			matchers: [ "stone", "stone:5" ]
+			noise2D: { frequency: 0.05 }
+		},
+		{
+			state: botania:mushroom:9
+			wide: false
+			chance: 0.01
+			maxLength: 2
+			minHeight: 10
+			maxHeight: 250
+			matchers: [ "stone", "stone:5" ]
+			noise2D: { frequency: 0.05 }
+		},
+		{
+			state: botania:mushroom:10
+			wide: false
+			chance: 0.01
+			maxLength: 2
+			minHeight: 10
+			maxHeight: 250
+			matchers: [ "stone", "stone:5" ]
+			noise2D: { frequency: 0.05 }
+		},
+		{
+			state: botania:mushroom:11
+			wide: false
+			chance: 0.01
+			maxLength: 2
+			minHeight: 10
+			maxHeight: 250
+			matchers: [ "stone", "stone:5" ]
+			noise2D: { frequency: 0.05 }
+		},
+		{
+			state: botania:mushroom:12
+			wide: false
+			chance: 0.01
+			maxLength: 2
+			minHeight: 10
+			maxHeight: 250
+			matchers: [ "stone", "stone:5" ]
+			noise2D: { frequency: 0.05 }
+		},
+		{
+			state: botania:mushroom:13
+			wide: false
+			chance: 0.01
+			maxLength: 2
+			minHeight: 10
+			maxHeight: 250
+			matchers: [ "stone", "stone:5" ]
+			noise2D: { frequency: 0.05 }
+		},
+		{
+			state: botania:mushroom:14
+			wide: false
+			chance: 0.01
+			maxLength: 2
+			minHeight: 10
+			maxHeight: 250
+			matchers: [ "stone", "stone:5" ]
+			noise2D: { frequency: 0.05 }
+		},
+		{
+			state: botania:mushroom:15
+			wide: false
+			chance: 0.01
+			maxLength: 2
+			minHeight: 10
+			maxHeight: 250
+			matchers: [ "stone", "stone:5" ]
+			noise2D: { frequency: 0.05 }
+		},
+	]
+}
